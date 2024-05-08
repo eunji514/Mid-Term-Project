@@ -1,11 +1,26 @@
-body {
-    background-color: aliceblue;
+@font-face {
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    src: url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+    unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
 }
 
+@font-face {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+    unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: "Lora", "Nanum Gothic Coding", monospace; 
+}
+
+/* Home */
 .container {
     text-align: center;
     margin-top: 50px;
@@ -37,4 +52,19 @@ body {
 .profile img {
     border-radius: 30%;    
     border: 10px solid rgb(184, 209, 255);
+}
+
+/* Info */
+.one {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.one img {
+    border-radius: 30%;    
+    border: 10px solid rgb(184, 209, 255);
+}
+
+.one h2 {
+    padding-left: 10px;
 }

@@ -1,5 +1,9 @@
 body {
     background-color: aliceblue;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .container {
@@ -7,8 +11,28 @@ body {
 }
 
 .menu * {
-    text-decoration: none;
-    color: inherit;
     display: inline;
-    margin: 30px;
+}
+
+.menu ul {
+    padding-left: 0px;
+    padding-right: 28px;
+}
+
+.menu li {
+    margin: 40px;
+}
+
+.menu li a {
+    text-decoration: none;  
+    color: inherit;   
+    font-size: 20px;
+}
+
+.profile {
+    margin-top: 50px;
+}
+
+.profile img {
+    border-radius: 30%;    
 }

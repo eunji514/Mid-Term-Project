@@ -30,9 +30,10 @@ body {
 }
 
 .profile {
-    margin-top: 35px;
+    margin-top: 30px;
 }
 
 .profile img {
     border-radius: 30%;    
+    border: 10px solid rgb(184, 209, 255);
 }

@@ -1,6 +1,14 @@
 body {
     background-color: aliceblue;
 }
+
 .container {
     text-align: center;
+}
+
+.menu * {
+    text-decoration: none;
+    color: inherit;
+    display: inline;
+    margin: 30px;
 }

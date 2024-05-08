@@ -58,6 +58,7 @@ body {
 .one {
     padding-left: 100px;
     padding-top: 100px;
+    float: left;
 }
 
 .one img {
@@ -67,4 +68,8 @@ body {
 
 .one h2 {
     padding-left: 10px;
+}
+
+.two {
+    float: right;
 }

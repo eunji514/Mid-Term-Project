@@ -81,11 +81,15 @@ body {
     position: relative;
 }
 
-.two > div hr {
+.two hr {
     border: solid 1px rgb(188, 188, 188);
     width: calc(100% + 150px); 
     position: relative;
     left: -5px;
+}
+
+.two .sns a {
+    text-decoration: none; 
 }
 
 .two .sns img {

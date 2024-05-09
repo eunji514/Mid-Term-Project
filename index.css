@@ -88,6 +88,11 @@ body {
     left: -5px;
 }
 
+.two .sns img {
+    width: 40px;
+}
+
+/* Like */
 .like {
     text-align: center;
 }

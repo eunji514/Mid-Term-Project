@@ -56,7 +56,7 @@ body {
 
 /* Info */
 .one {
-    padding-left: 100px;
+    padding-left: 200px;
     padding-top: 100px;
     float: left;
 }
@@ -72,4 +72,19 @@ body {
 
 .two {
     float: right;
+    padding-top: 30px;
+    padding-right: 500px;
 }
+
+.two > div {
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.two > div hr {
+    border: solid 1px rgb(188, 188, 188);
+    width: calc(100% + 150px); 
+    position: relative;
+    left: -5px;
+}
+

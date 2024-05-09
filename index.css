@@ -88,3 +88,15 @@ body {
     left: -5px;
 }
 
+.like {
+    text-align: center;
+}
+
+.like h1 {
+    padding-top: 40px;
+}
+
+.like > div {
+    display: inline-block;
+    margin: 30px;
+}
